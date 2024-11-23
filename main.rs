@@ -12,6 +12,7 @@ struct Cli {
     #[command(subcommand)]
     command: Commands,
 }
+
 #[derive(Subcommand)]
 enum Commands {
     /// Add a new order
