@@ -4,6 +4,8 @@ use rusqlite::{params, Connection};
 use serde::{Deserialize, Serialize};
 use std::{fs::File, io::Write, path::Path};
 
+
+
 /// Tim Hortons Expense Tracker CLI
 #[derive(Parser)]
 #[command(name = "Tim Hortons Tracker")]
