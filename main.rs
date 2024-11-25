@@ -15,7 +15,6 @@ struct Cli {
 
 
 
-
 #[derive(Subcommand)]
 enum Commands {
     /// Add a new order
