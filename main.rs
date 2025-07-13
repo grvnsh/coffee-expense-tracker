@@ -4,7 +4,6 @@
 
 
 
-
 use chrono::Local;
 use clap::{Parser, Subcommand};
 use rusqlite::{params, Connection};
